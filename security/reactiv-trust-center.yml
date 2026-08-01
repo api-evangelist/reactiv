@@ -1,0 +1,34 @@
+generated: '2026-07-20'
+method: searched
+source:
+- https://docs.reactivapp.com/
+- https://docs.reactivapp.com/legal/data-processors
+- https://docs.reactivapp.com/legal/privacy-policy
+type: TrustCenter
+provider: reactiv
+name: Reactiv Trust Center
+url: https://docs.reactivapp.com/
+description: >-
+  Reactiv operates a public trust center (Docusaurus) covering security, legal, and status. It
+  documents GDPR / CCPA data-processing commitments via a Data Processing Addendum and a
+  sub-processors (data processors) list, plus an SLA and a status page. No named third-party
+  security certifications (SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP) are published as of this pass,
+  so no Compliance pointer is emitted.
+certifications: []
+regulatory_commitments:
+- framework: GDPR
+  evidence: Data Processing Addendum (docs.reactivapp.com/legal/data-processors) states GDPR commitments.
+- framework: CCPA
+  evidence: Data Processing Addendum states CCPA commitments.
+documents:
+- name: Privacy Policy
+  url: https://docs.reactivapp.com/legal/privacy-policy
+- name: Terms of Service
+  url: https://docs.reactivapp.com/legal/terms-of-service
+- name: Data Processors / Sub-processors
+  url: https://docs.reactivapp.com/legal/data-processors
+- name: Service Level Agreement
+  url: https://docs.reactivapp.com/legal/service-level-agreement
+security_contact: support@reactiv.ai
+bug_bounty: none
+vulnerability_disclosure: none

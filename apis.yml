@@ -1,7 +1,25 @@
 aid: reactiv
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reactiv.png
 name: Reactiv
-description: Reactiv is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Reactiv is an AI-forward mobile app platform that empowers Shopify merchants and commerce brands
+  to build native iOS and Android apps and downloadable-free App Clips for their store in minutes.
+  The platform pairs full native apps with lightweight App Clip experiences (accessible via ads, QR
+  codes, and links) to convert mobile traffic into app users, and offers migration from competing
+  platforms such as Tapcart. Customers include River Island, Browns, Indigo, EverEve, and Missouri
+  Star Quilt Co. Reactiv is a portfolio company of Anthemis. This profile was enriched from the
+  company's public website, help center, and trust center; Reactiv publishes no public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/reactiv/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,55 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Mobile
+- eCommerce
+- Shopify
+- Mobile App Builder
+- Commerce
+- App Clips
+- Retail
+- No-Code
+- AI
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/reactiv-domain-security.yml
+- type: Website
+  url: https://www.reactiv.ai
+- type: Documentation
+  url: https://info.reactiv.ai/reactiv-help-center/
+- type: HelpCenter
+  url: https://info.reactiv.ai/reactiv-help-center/
+- type: Blog
+  url: https://www.reactiv.ai/blog
+- type: Pricing
+  url: https://www.reactiv.ai/pricing
+- type: SignUp
+  url: https://dashboard.reactivapp.com/
+- type: TrustCenter
+  url: https://docs.reactivapp.com/
+- type: TermsOfService
+  url: https://docs.reactivapp.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://docs.reactivapp.com/legal/privacy-policy
+- type: StatusPage
+  url: https://status.reactiv.ai/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/reactivapp
+- type: Lifecycle
+  url: lifecycle/reactiv-lifecycle.yml
+- type: TrustCenter
+  url: security/reactiv-trust-center.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

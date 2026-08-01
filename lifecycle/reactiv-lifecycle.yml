@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: searched
+source:
+- https://docs.reactivapp.com/
+- https://status.reactiv.ai/
+- https://docs.reactivapp.com/legal/service-level-agreement
+type: Lifecycle
+provider: reactiv
+name: Reactiv Lifecycle
+description: >-
+  Operational lifecycle signals for Reactiv gathered from the company's public trust center and
+  status page. Reactiv publishes no public developer API, so no API versioning, deprecation, or
+  sunset-header policy is documented; the signals below cover platform availability and SLA.
+status_page:
+  url: https://status.reactiv.ai/
+  description: Live uptime, incident history, and scheduled maintenance for the Reactiv platform.
+sla:
+  url: https://docs.reactivapp.com/legal/service-level-agreement
+  description: Availability targets, support response times, and severity tiers.
+versioning_policy:
+  documented: false
+  notes: No public API versioning policy published.
+deprecation_policy:
+  documented: false
+  notes: No Sunset/Deprecation (RFC 8594) header policy or API deprecation schedule published.
