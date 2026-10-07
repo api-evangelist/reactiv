@@ -1,0 +1,34 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.reactiv.ai/pricing
+sources:
+- https://www.reactiv.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: For SCALING Brands
+published: true
+note: 'Two plans: a starting-from monthly price and a custom enterprise tier.'
+plan_count: 2
+currency: USD
+plans:
+- name: For SCALING Brands
+  price_text: $ 1,499 Starting from /mo
+  price: 1499
+  currency: USD
+  period: month
+  included_quota: Native iOS and Android apps, No-download App Clips, Reactiv AI Studio builder & analytics,
+    Unlimited push notifications & integrations, Standard support (up to 2 business days)
+- name: For Enterprise
+  price_text: Custom
+  period: none
+  included_quota: Everything in Brand, Reactiv SDK, including APIs & UI Kit, Scaled infrastructure for
+    omnichannel retail, Dedicated success manager & project team, Priority support
